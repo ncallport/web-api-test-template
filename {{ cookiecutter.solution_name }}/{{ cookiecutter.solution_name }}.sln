@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{B4EE02FF-06F7-4137-9FDC-136D5DE5AD0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{ cookiecutter.project_name }}", "{{ cookiecutter.project_name }}\{{ cookiecutter.project_name }}.csproj", "{B4EE02FF-06F7-4137-9FDC-136D5DE5AD0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Unit.Tests", "TestWebApi.Unit.Tests\TestWebApi.Unit.Tests.csproj", "{58EDB2E7-F0D7-407B-8E81-4E9F338196D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{ cookiecutter.project_name }}.Unit.Tests", "{{ cookiecutter.project_name }}.Unit.Tests\{{ cookiecutter.project_name }}.Unit.Tests.csproj", "{58EDB2E7-F0D7-407B-8E81-4E9F338196D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Integration.Tests", "TestWebApi.Integration.Tests\TestWebApi.Integration.Tests.csproj", "{B9237E14-5A60-4E8D-8ADB-3E905D85957C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{ cookiecutter.project_name }}.Integration.Tests", "{{ cookiecutter.project_name }}.Integration.Tests\{{ cookiecutter.project_name }}.Integration.Tests.csproj", "{B9237E14-5A60-4E8D-8ADB-3E905D85957C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
